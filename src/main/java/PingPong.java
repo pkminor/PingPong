@@ -18,7 +18,7 @@ public class PingPong {
         return inList.stream().map(
                 i->
                     (i % 3 == 0 && i % 5 == 0) ?
-                            "Ping Pong" : (i % 3 == 0) ?
+                            "Ping-Pong" : (i % 3 == 0) ?
                             "Ping" : (i % 5 == 0) ?
                             "Pong" : String.valueOf(i)
 
